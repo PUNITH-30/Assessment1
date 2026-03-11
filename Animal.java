@@ -1,12 +1,12 @@
 package Assigments;
 
-public class Animal {
+public class InheritanceExample {
     void eat(){
         System.out.println("Animal eats food");
     }
 }
 
-class Dog extends Animal{
+class Dog extends InheritanceExample{
     void bark(){
         System.out.println("Dog barks");
     }
@@ -17,3 +17,4 @@ class Dog extends Animal{
         d.bark();
     }
 }
+
